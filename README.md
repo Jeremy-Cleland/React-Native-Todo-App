@@ -1,110 +1,85 @@
 # Task Force: Task Management Application
 
-Create a phone application using 1 native feature.
-
----
+Task Force is a powerful task management application built using React Native. It provides a simple and intuitive interface for managing your daily tasks efficiently. With Task Force, you can create, edit, and mark tasks as complete with ease. This README will guide you through the installation process and provide an overview of the application's features.
 
 ## User Stories
 
-- User Story 1:
+- **User Story 1: Create a new todo item**
 
   - As a user, I want to be able to create a new todo item.
-
-  - Acceptance Criteria:
-
+  - **Acceptance Criteria:**
     - [x] The user should be able to enter a title for the todo item.
-    - [ ] The user should be able to enter a description for the todo item.
-    - [ ] The user should be able to specify a due date for the todo item.
     - [x] The user should be able to specify a priority for the todo item.
 
----
-
-- User Story 2:
+- **User Story 2: Edit a todo item**
 
   - As a user, I want to be able to edit a todo item.
-
-  - Acceptance Criteria:
-
-    - [ ] The user should be able to change the title of the todo item.
+  - **Acceptance Criteria:**
+    - [x] The user should be able to change the title of the todo item.
     - [ ] The user should be able to change the description of the todo item.
-    - [ ] The user should be able to change the due date of the todo item.
-    - [ ] The user should be able to change the priority of the todo item.
 
----
-
-- User Story 3:
-
-- As a user, I want to be able to mark a todo item as complete.
-
-  - Acceptance Criteria:
-
-    - [ ] The user should be able to mark a todo item as complete.
-    - [ ] The user should be able to unmark a todo item as complete.
-    - [ ] The user should be able to see a list of all completed todo items.
-    - [x] The user should be able to delete the task
-
----
+- **User Story 3: Mark a todo item as complete**
+  - As a user, I want to be able to mark a todo item as complete.
+  - **Acceptance Criteria:**
+    - [x] The user should be able to mark a todo item as complete.
+    - [x] The user should be able to unmark a todo item as complete.
+    - [x] The user should be able to delete the task.
 
 ## Mockup
 
-![SS3](./assets/SS3.PNG)
+![Task Force Screenshot](./assets/SS3.PNG)
 
-## Screen Shots
+## Screenshots
 
-![SS1](./assets/SS1.PNG)
+![Screenshot 1](./assets/SS1.PNG)
 
----
+![Screenshot 2](./assets/SS2.PNG)
 
-![SS2](./assets/SS2.PNG)
+## UML Diagram
 
----
+![UML Diagram](./assets/UML.PNG)
 
-## UML
+## Milestones
 
-![SS2](./assets/UML.PNG)
+- **Milestone 1 - MVP (This Lab)**
 
----
+  - Deliver your Minimum Viable Product (MVP) with basic functionality.
+  - Ensure your development environment is properly set up.
+  - Other users should be able to scan your QR code and access your app on any device.
+  - All core features should be implemented and working correctly.
+  - Styling is not a priority for this milestone. Focus on functionality and core features.
 
-### Milestones
+- **Milestone 2 - Product Delivery (This Lab)**
+  - Once your MVP is complete, shift your focus to enhancing the user experience.
+  - Implement quality and thoughtful styling using CSS-in-JS.
+  - Optimize tap targets for better usability and ensure good contrast.
+  - Provide support for both Dark and Light modes.
+  - Design a well-thought-through user experience.
+  - Consider the needs of users who primarily use their thumbs or have different hand preferences.
 
-- #### Milestone 1 - MVP (This Lab)
+## How to Install the Application
 
-- Deliver your MVP for raw functionality
-- Your dev environment should be properly working
-- Other users should be able to scan your QR and see your app on any device
-- All of your core “features” should be working properly
-- Un-Styled is fine. We’re looking for things to buzz, light up, detect movement, etc.
+To install and run the Task Force application on your device, follow these steps:
 
-- #### Milestone 2 - Product Delivery (This Lab)
+1. Clone the repository to your local machine.
+2. Set up an account at [expo.io](https://expo.io).
+3. Download the Expo Go application on your mobile device.
+4. Navigate to the project directory and run `npm install` to install the dependencies.
+5. Run the command `npx expo start --tunnel` to start the development server.
+6. Scan the QR code using the Expo Go app on your device to launch the application.
 
-- As you complete your RNA, switch your focus to the user experience. -
-  - Quality and Thoughtful Styling using css-in-js
-  - Right sized tap targets, good contrast
-  - Dark and Light Modes
-  - Well-thought-through UX
-  - Be considerate of individuals that primarily use their thumbs, left or right hands
+## Resources
 
-### How to install the Application
+- [React Navigation](https://reactnavigation.org/): React Navigation is a library that manages screens, navigation, and history in a React Native app.
 
-- Clone repo
-- Set up an account at [expo](https://expo.io)
-- Download the Expo Go application on your cellular device
-- npm install
-- Run `npx expo start --tunnel`
-- Scan the QR code with phone
+- [Formik](https://formik.org/): Formik simplifies form submission and management in React applications.
 
-### Resources
+- [Yup](https://github.com/jquense/yup): Yup is a schema builder for runtime value parsing and validation.
 
-- [React Navigation](https://reactnavigation.org/): React Navigation manages screens, navigation between them, and history as a Stack
+- [React Native Async Storage](https://react-native-async-storage.github.io): React Native Async Storage provides a data storage system for React Native apps.
 
-- [Formik](https://formik.org/): Simplies Form Submission
+- [Expo](https://expo.io/): Expo is an open-source framework for developing Android, iOS, and web apps.
 
-- [Yup](github.com/jquense/yup): Yup is a schema builder for runtime value parsing and validation
+- [React Native Elements](https://reactnativeelements.com/): React Native Elements is a UI framework for building cross-platform apps.
 
-- [React Native Async Storage](https://react-native-async-storage.github.io): Data storage system for React Native.
-
-- [Expo](https://expo.io/): Expo is an open-source framework for apps that run natively on Android, iOS, and the web.
-
-- [React Native Elements](https://reactnativeelements.com/): A React Native framework for making cross-platform applications
-
-- [React Native UUID](https://github.com/eugenehp/react-native-uuid): React Native implementation of RFC4122 standard A Universally Unique IDentifier (UUID).
+- [React Native UUID](https://github.com/eugenehp/react-native-uuid): React Native UUID is an implementation of the RFC4122 standard for generating universally unique identifiers (UUIDs).
